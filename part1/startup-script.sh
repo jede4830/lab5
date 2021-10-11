@@ -1,4 +1,5 @@
-T startup_script]
+#!/bin/bash
+
 # apt-get update
 # apt-get -y install imagemagick
 

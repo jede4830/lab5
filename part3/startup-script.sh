@@ -1,7 +1,7 @@
 #!/bin/bash
 #!/usr/bin/python
 apt-get update
-apt-get -y install imagemagick
+#apt-get -y install imagemagick
 
 IMAGE_URL=$(curl http://metadata/computeMetadata/v1/instance/attributes/url -H "Metadata-Flavor: Google")
 TEXT=$(curl http://metadata/computeMetadata/v1/instance/attributes/text -H "Metadata-Flavor: Google")

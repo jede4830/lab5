@@ -1,4 +1,4 @@
-a#!/bin/bash
+#!/bin/bash
 
 # # [START startup_script]
 # apt-get update

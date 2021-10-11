@@ -1,4 +1,4 @@
-a#!/bin/bash
+#!/bin/bash
 
 # # [START startup_script]
 # apt-get update
@@ -22,7 +22,6 @@ a#!/bin/bash
 # # Store the image in the Google Cloud Storage bucket and allow all users
 # # to read it.
 # gsutil cp -a public-read output.png gs://$CS_BUCKET/output.png
-
 
 sudo apt-get update
 sudo apt-get install -y python3 python3-pip git
